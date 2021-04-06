@@ -6,13 +6,12 @@ https://github.com/analogdevicesinc/libiio
 
 # Setup - 
 
-FMCOMMs5 allows up to 6 GHz of testing. First connect loopback cables and perform MCS sync. Verify this by the GUI, and use a little bit of offset in the reciever phase to synchronise all the channels. <br/>
+FMCOMMs5 allows up to 6 GHz of testing. First connect loopback cables and perform MCS sync. Verify this by the GUI, and use some amount of offset in the reciever phase to synchronise all the channels. <br/>
 
 Make sure you have access to the board by pinging and if so, proceed by executing saverx.py to recieve samples and save them into a csv file. Change the parameters as required. <br/>
 
 After file is saved, open it up in MATLAB  and import it as a numeric matrix.(default type is table). Run the music script. 
-
-#Future work - 
+# Future work - 
 
 Streamline entire process as one script.<br/>
 Include measurements to calibarate the array performance.<br/>
